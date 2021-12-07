@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/warehouse
+    username: postgres
+    password: root
+
+FILTER_SERVICE_URL: 'http://localhost:8081'
+PRODUCT_SERVICE_URL: 'http://localhost:8082'
